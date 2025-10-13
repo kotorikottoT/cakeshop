@@ -98,3 +98,10 @@ section {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
+
+.gmap_iframe {
+  aspect-ratio: 16 / 9;
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+}
