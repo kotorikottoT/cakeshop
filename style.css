@@ -150,9 +150,12 @@ main {
   padding: 1rem;
   max-width: 600px; /* 読みやすい幅に調整 */
   margin: 0 auto;
-  flex-grow: 1;
   text-align: center; /* 文章中央寄せ */
   display: block; /* gridを解除 */
+}
+
+main p{
+  text-align: left;
 }
 
 section {
@@ -194,6 +197,7 @@ footer {
 
 /*
 
+  flex-grow: 1;
 
 .sec02 {
   grid-row-start: 2;
