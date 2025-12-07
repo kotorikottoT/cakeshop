@@ -45,6 +45,8 @@ nav {
   display: none;
 }
 
+
+
 #navBtn {
   display: none;
 }
@@ -127,6 +129,33 @@ nav ul li a {
   color: #333;
 }
 
+/* ===== footer nav 自動で表示する設定 ===== */
+.footer-nav {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.footer-nav ul {
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-nav a {
+  color: #fff; /* フッター背景が黒い場合 */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  opacity: 0.7;
+}
+
+
 /* コンピュータ用 */
 @media all and (min-width: 1025px) {
   nav {
@@ -148,7 +177,7 @@ nav ul li a {
 /****** main contents ******/
 main {
   padding: 1rem;
-  max-width: 600px; /* 読みやすい幅に調整 */
+  max-width: 1200px; /* 読みやすい幅に調整 */
   margin: 0 auto;
   text-align: center; /* 文章中央寄せ */
   display: block; /* gridを解除 */
